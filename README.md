@@ -1,4 +1,4 @@
-# Image Downloader via CSV
+# Image Downloader via CSV file
 This script reads a CSV file containing a list of image URLs and attempts to download each image from those URLs. The images are stored in a local directory called "image". If any image URLs fail to download, the row number and URL are written to a file called `error_log.txt` and added to a list of skipped URLs. At the end of the script, if there were any skipped URLs, it will print a message indicating which rows they were on.
 
 ## Requirements
